@@ -104,7 +104,7 @@ The following manifest describes a single-instance MySQL Deployment. The MySQL c
       kubectl create -f https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
       ```
 
-2. Verify that a PersistentVolume got dynamically provisioned. Note that it can
+2. Verify that a PersistentVolume got dynamically provisioned. Note that
    It can take up to a few minutes for the PVs to be provisioned and bound.
 
       ```shell
